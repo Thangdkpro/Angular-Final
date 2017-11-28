@@ -1,0 +1,351 @@
+
+/*-----------------------------------Style Login Page------------------------------*/
+
+.StyleManagela {
+
+font-family: Alex Brush, Helvetica;
+color: #23db23;
+font: 100px;
+height: 9px;
+width: 272px;
+font-size: 48px
+}
+
+
+.draggable1 {
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color: #2e7d32;
+
+    &.dragged {
+      border: 1px solid red;
+    }
+
+    &.placeholder {
+      opacity: 0.5;
+    }
+  }
+
+.textbg {
+    text-align:center;
+    color: #fff;
+    
+    font-size: 35px;
+    
+}
+
+.textbg1 {
+    text-align:center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.alignCenter {
+  
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 35%;
+  margin: -100px 0 0 -150px;
+    
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  height: 65px;
+  width: 500px;
+}
+
+.thumbnails > li {
+    display: inline-flex;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
+.btnjoinus{
+  font-style: 32px;
+  height: 10px;
+  width: 50px;
+  font-size: 32px
+}
+
+.div1 {
+    border: 1px solid black;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    text-align: justify;
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 30px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #1b5e20; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+
+.bg {
+              /* The image used */
+  background: url("https://c1.staticflickr.com/3/2843/9662617155_3d391e81bc_h.jpg");
+  
+
+             /* Set rules to fill background */
+   min-height: 100%;
+   min-width: 100%;
+
+  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+  
+  /* Set up positioning */
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+/*---------------------------------- Set rules to fill Login */
+
+
+ @media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.StyleManagela1 {
+
+font-family: Alex Brush, Helvetica;
+color: #23db23;
+font: 100px;
+font-size: 48px;
+text-align: center;
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+  line-height: 300%;
+}
+  
+.omb_login .omb_socialButtons a {
+  color: white; // In yourUse @body-bg 
+  opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+  opacity:1;      
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+  position: relative;
+  font-size: 1.5em;
+  color: #aaa;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -0.6em;
+  margin-left: -1.5em;
+  background-color: white;
+  width: 3em;
+  text-align: center;
+}     
+
+.omb_login .omb_loginForm .input-group.i {
+  width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+  
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+    margin-top:10px;
+  }   
+}
+
+
+
+/*------------------------- Showboard*/
+
+.sidebar{
+  background-color: #E5F4DD;
+  height: 45em;
+}
+.navbar1 {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+    body,html{
+    height: 100%;
+  }
+
+  /* remove outer padding */
+  .main .row{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /*Remove rounded coners*/
+
+  nav.sidebar.navbar1 {
+    border-radius: 0px;
+  }
+
+  nav.sidebar, .main{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+  /* Add gap to nav and right windows.*/
+  .main{
+    padding: 10px 10px 0 10px;
+  }
+
+  /* .....NavBar: Icon only with coloring/layout.....*/
+
+  /*small/medium side display*/
+  @media (min-width: 768px) {
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 15em;
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+    /*gives sidebar width/height*/    
+  }
+  /* .....NavBar: Fully showing nav bar..... */
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    
+    
+  }
+  .img-circle {
+    border-radius: 0;
+  }
+  
+  /*SEARCH FORM*/
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+ .search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+}
+
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+.nofi{
+    font-size:25px;
+    padding-left:10px;
+    text-decoration:none;
+    color:#DFEDD6;
+  }
+.nofi:hover,.nofi:active,.nofi.focus,.nofi.visited{
+    text-decoration:none;
+    color:#AEDD94;
+    cursor:pointer;  
+}
+.member{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    padding-right: 60px;
+}
+.member:hover,.member:active,.member.focus,.nofi.visited{
+    text-decoration:none;
+    background-color: rgb(196, 218, 184);
+    cursor:pointer;
+}
+.section{
+    background-color: black;
+}
+
+.managela{
+  text-align: left;
+  color: #23db23;
+  font-family: 'Alex Brush'; 
+   font-weight: normal; 
+   font-style: bold; 
+   font-size: 40px;
+   width:50%;
+
+
+}
+/*-----------------ProjectDetail*/
+
+
+  .draggable {
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color: #00aced;
+    }

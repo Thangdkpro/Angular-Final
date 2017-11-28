@@ -1,0 +1,12 @@
+.bg{
+	background-image: url("https://images7.alphacoders.com/443/thumb-1920-443952.jpg")
+}
+.bg1{
+
+	background-image:url(http://assets1.blurb.com/pages/website-assets/trade-books/03_tradebook-800x472-v5-Covers-2b61a1666d706b6500a3fa6be3b49771fcc8bd8766186bffaeaa5e95c33c1891.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.buttonWP{
+	margin-top: 80px
+}
